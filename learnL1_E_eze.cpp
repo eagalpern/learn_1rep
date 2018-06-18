@@ -65,7 +65,7 @@ int main()
 	f1File.close(); 
 
 	static double f2Data[naanpos][naanpos];
-	ifstream f2File("fjtxt");  /*check*/
+	ifstream f2File("fj.txt");  /*check*/
 	for(int fila=0;fila<naanpos;fila++)
 	{
 		for(int col=0;col<naanpos;col++)
